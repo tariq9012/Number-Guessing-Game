@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h2>🎯 Number Guesser Game</h2>
+        <p class="sub-text">Guess a secret number between 1 and 100</p>
+
+        <input type="number" id="guessInput" placeholder="Enter your guess...">
+        <button id="guessBtn">Submit Guess</button>
+        <button id="resetBtn" class="hidden">Play Again 🔄</button>
+
+        <!-- Dynamic message panel jo rang badle ga -->
+        <div id="gameMessage" class="message-box">Start guessing to see hints!</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
